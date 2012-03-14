@@ -1,0 +1,21 @@
+body {
+    background-color:#357eef;
+    color:#def8ff;
+    font-size:16px;
+}
+body > section, footer, header {
+    height:10em;
+    text-align:center;
+}
+
+body > section, footer {
+    border-color:white;
+    border-style:dashed;
+    box-radius:2em;
+    margin:1em auto;
+    width:98%;
+}
+header {
+    margin:0;
+    width:100%;
+}
