@@ -10,9 +10,11 @@ body > section, footer, header {
 
 body > section, footer {
     border-color:white;
+    border-radius:2em;
     border-style:dashed;
-    box-radius:2em;
+    box-sizing:border-box;
     margin:1em auto;
+    padding:1em;
     width:98%;
 }
 header {
