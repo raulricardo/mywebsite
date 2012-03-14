@@ -1,0 +1,3 @@
+[submodule "media/js/prefixfree"]
+	path = media/js/prefixfree
+	url = git://github.com/LeaVerou/prefixfree.git
