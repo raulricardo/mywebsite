@@ -1,0 +1,11 @@
+    /* TEAM */
+    Developer: Raúl Ricardo Amaya.
+    Site: email, link to a contact form, etc.
+    Twitter: raulricardo21.
+    Location: Bogotá, Colombia.
+    /* THANKS */
+    /* SITE */
+    Last update: 2012/05/22
+    Standards: HTML5, CSS3
+    Components: prefixfree
+    Software: Software used for the development
