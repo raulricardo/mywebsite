@@ -1,7 +1,11 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans|Ubuntu);
+
 body {
     background-color:#357eef;
     color:#def8ff;
+    font-family: 'Ubuntu',sans-serif;
     font-size:16px;
+
 }
 body > section, footer, header {
     height:10em;
@@ -16,6 +20,7 @@ body > section, footer {
     margin:1em auto;
     padding:1em;
     width:98%;
+    behavior:url(media/pie/PIE.htc);
 }
 header {
     margin:0;
