@@ -4,8 +4,11 @@
     Twitter: raulricardo21.
     Location: Bogotá, Colombia.
     /* THANKS */
+    human.txt
     /* SITE */
     Last update: 2012/05/22
     Standards: HTML5, CSS3
     Components: prefixfree
     Software: Software used for the development
+    IDE: Geany
+    VCS: Git
