@@ -1,14 +1,14 @@
     /* TEAM */
     Developer: Raúl Ricardo Amaya.
     Site: email, link to a contact form, etc.
-    Twitter: raulricardo21.
+    Twitter: @R4u1R
     Location: Bogotá, Colombia.
     /* THANKS */
     human.txt
     /* SITE */
     Last update: 2012/05/22
     Standards: HTML5, CSS3
-    Components: prefixfree
+    Components: prefixfree, jquery
     Software: Software used for the development
-    IDE: Geany
+    IDE: Geany, Sublime Text 2
     VCS: Git
