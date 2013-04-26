@@ -1,4 +1,2 @@
-var ramaya = function(){
-	// alert("hello");
-};
+var ramaya = function() {};
 $(document).on('ready',ramaya);

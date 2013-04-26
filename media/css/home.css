@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans|Ubuntu);
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans|Ubuntu);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic&subset=latin,latin-ext);
 
 body {
@@ -25,12 +25,12 @@ body > section, footer {
     behavior:url(media/pie/PIE.htc);
 }
 body > section {
-    /*display: flexbox;*/
-    /*width:calc(100% - 3em);*/
+    display: flexbox;
+    width:calc(100% - 3em);
 }
 footer > div {
     display: -webkit-flex;
-    /*flex-direction: row;*/
+    flex-direction: row;
     flex-direction: row;
 
 }
@@ -39,23 +39,19 @@ footer > div > div {
     width: 30em;
 }
 header {
-    /*background-color:#2A2A2A;*/
-    /*background-image:radial-gradient(5em circle at top left, yellow, blue);*/
+    background-color:#2A2A2A;
+    background-image:radial-gradient(5em circle at top left, yellow, blue);
     margin:0 auto;
     width:100%;
 }
 header h1 {
     color:#766868;
     font-size: 6em;
-    text-shadow: #555 0.5em 0.35em 20px; /* color, h-offset, v-offset, blur */
+    text-shadow: #555 0.5em 0.35em 20px;
+    color, h-offset, v-offset, blur
 }
 header h2 {
     color:rgba(81,81,81,.9);
     font-size:4em;
 }
-.texto0 {
-    font-family:'Ubuntu',sans-serif;
-}
-.texto1 {
-    font-family:'Source Sans Pro', sans-serif;
-}
+*/

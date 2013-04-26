@@ -2,9 +2,14 @@
 <html lang="es">
 <head>
     <meta charset="utf-8" />
-    <title>Home</title>
-    <link rel="stylesheet" href="media/css/home.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="author" href="humans.txt" />
+
+    <title>Home</title>
+
+    <link href="assets/css/bootstrap.min.css" media="screen" rel="stylesheet"/>
+    <link href="media/css/home.css" media="screen" rel="stylesheet"/>
+
     <script src="media/js/prefixfree/prefixfree.min.js"></script>
     <script type="text/javascript">
         var _gaq = _gaq || [];
@@ -18,31 +23,67 @@
     </script>
 </head>
 <body>
-    <header>
-        <h1>Raúl Amaya</h1>
-        <h2>Prueba</h2>
-    </header>
-    <section>
-        <p>Hola, este sitio está en construcción</p>
-        <p class="texto0">Y este es un texto de prueba</p>
-        <p class="texto1">Y este es un texto de prueba</p>
-        <aside>
-            <ul>
-                <li><a href="" target=""></a></li>
-                <li><a href="" target=""></a></li>
-                <li><a href="" target=""></a></li>
-                <li><a href="" target=""></a></li>
+    <div class="container-fluid">
+        <div class="row-fluid navbar    ">
+            <nav class="span12 navbar-inner">
+                <a class="brand" href="#">RRAS</a>
+                <ul class="nav">
+                    <li><a href="#"><i class="icon-home"></i></a></li>
+                    <li><a href="#"><i class="icon-plus"></i></a></li>
+                    <li><a href="#"><i class="icon-minus"></i></a></li>
+                    <li><a href="#"><i class="icon-remove"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="row-fluid">
+            <!--
+                <header class="span12 text-center">
+                    <h1>Raúl Amaya</h1>
+                </header>
+             -->
+        </div>
+        <div class="row-fluid">
+            <section class="span10 offset1 hero-unit">
+                <h1><small>hola, me llamo</small> Raúl Amaya</h1>
+                <p>
 
-            </ul>
-        </aside>
-    </section>
-    <footer>
-        Hey, this is footer :3
-    </footer>
-    <!--<script src="media/js/main.js"></script>-->
+                    este sitio está en construcción desde hace mucho, mucho
+                    tiempo. En serio. No hay mucho que ver acá por el momento
+                    asi que no  hay mucha diferencia con lo que había antes.
+
+                </p>
+                <p>
+                    Espero comenzar a poner este sitio bonito, con todos los FAQ,
+                    "contácteme", projectos, etc, etc, etc. Pero pues no hay garantía
+                </p>
+                <p>
+                    Pero esta vez, esta vez es diferente, esta vez les dejo algo para que visiten
+                </p>
+                <p>
+                    <a
+                        class="btn-large btn-sucess btn-primary"
+                        href="http://tumblr.raulamaya.net/random" target="_blank">
+                        Disfruten
+                    </a>
+                </p>
+            </section>
+        </div>
+        <!--
+            <footer>
+            </footer>
+        -->
+    </div>
     <script
-        src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js">
+        type="text/javascript"
+        src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js">
     </script>
-    <script type="text/javascript" src="media/js/main.js"></script>
+    <script
+        type="text/javascript"
+        src="assets/js/bootstrap.min.js">
+    </script>
+    <script
+        type="text/javascript"
+        src="media/js/main.js">
+    </script>
 </body>
 </html>
